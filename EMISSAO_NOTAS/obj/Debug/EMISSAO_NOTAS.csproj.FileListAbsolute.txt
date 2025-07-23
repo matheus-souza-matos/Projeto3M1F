@@ -1,0 +1,17 @@
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\bin\Debug\EMISSAO_NOTAS.exe.config
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\bin\Debug\EMISSAO_NOTAS.exe
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\bin\Debug\EMISSAO_NOTAS.pdb
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\obj\Debug\EMISSAO_NOTAS.csproj.AssemblyReference.cache
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\obj\Debug\EMISSAO_NOTAS.Form1.resources
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\obj\Debug\EMISSAO_NOTAS.Form2.resources
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\obj\Debug\EMISSAO_NOTAS.Form3.resources
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\obj\Debug\EMISSAO_NOTAS.Form4.resources
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\obj\Debug\EMISSAO_NOTAS.Form5.resources
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\obj\Debug\EMISSAO_NOTAS.Properties.Resources.resources
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\obj\Debug\EMISSAO_NOTAS.csproj.GenerateResource.cache
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\obj\Debug\EMISSAO_NOTAS.csproj.CoreCompileInputs.cache
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\obj\Debug\EMISSAO_NOTAS.exe
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\obj\Debug\EMISSAO_NOTAS.pdb
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\obj\Debug\EMISSAO_NOTAS.exe.config
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\obj\Debug\EMISSAO_NOTAS.Form6.resources
+C:\Users\secretaria\Desktop\Nova pasta\Modelo nota\NOTAS_3M1F\EMISSAO_NOTAS\obj\Debug\EMISSAO_NOTAS.Form7.resources
