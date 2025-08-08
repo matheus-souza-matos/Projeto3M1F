@@ -33,6 +33,8 @@
             this.txtNovoUsuario = new System.Windows.Forms.TextBox();
             this.lblUsuarioNovo = new System.Windows.Forms.Label();
             this.lblSenhaNovoUsuario = new System.Windows.Forms.Label();
+            this.txtIdUsuarioCadastrado = new System.Windows.Forms.TextBox();
+            this.lblIdUsuario = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCadastrarNovoUsuario
@@ -76,11 +78,29 @@
             this.lblSenhaNovoUsuario.TabIndex = 4;
             this.lblSenhaNovoUsuario.Text = "Senha:";
             // 
+            // txtIdUsuarioCadastrado
+            // 
+            this.txtIdUsuarioCadastrado.Location = new System.Drawing.Point(186, 31);
+            this.txtIdUsuarioCadastrado.Name = "txtIdUsuarioCadastrado";
+            this.txtIdUsuarioCadastrado.Size = new System.Drawing.Size(51, 20);
+            this.txtIdUsuarioCadastrado.TabIndex = 5;
+            // 
+            // lblIdUsuario
+            // 
+            this.lblIdUsuario.AutoSize = true;
+            this.lblIdUsuario.Location = new System.Drawing.Point(186, 12);
+            this.lblIdUsuario.Name = "lblIdUsuario";
+            this.lblIdUsuario.Size = new System.Drawing.Size(21, 13);
+            this.lblIdUsuario.TabIndex = 6;
+            this.lblIdUsuario.Text = "ID:";
+            // 
             // NovoUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(340, 302);
+            this.Controls.Add(this.lblIdUsuario);
+            this.Controls.Add(this.txtIdUsuarioCadastrado);
             this.Controls.Add(this.lblSenhaNovoUsuario);
             this.Controls.Add(this.lblUsuarioNovo);
             this.Controls.Add(this.txtNovoUsuario);
@@ -88,6 +108,7 @@
             this.Controls.Add(this.btnCadastrarNovoUsuario);
             this.Name = "NovoUsuario";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.NovoUsuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -100,5 +121,7 @@
         private System.Windows.Forms.TextBox txtNovoUsuario;
         private System.Windows.Forms.Label lblUsuarioNovo;
         private System.Windows.Forms.Label lblSenhaNovoUsuario;
+        private System.Windows.Forms.TextBox txtIdUsuarioCadastrado;
+        private System.Windows.Forms.Label lblIdUsuario;
     }
 }

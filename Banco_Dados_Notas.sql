@@ -1,3 +1,4 @@
+-- DROP DATABASE Notas_Fiscais;
 CREATE DATABASE Notas_Fiscais;
 
 USE Notas_Fiscais;

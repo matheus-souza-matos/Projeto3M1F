@@ -72,7 +72,7 @@ namespace EMISSAO_NOTAS
 
             if (string.IsNullOrWhiteSpace(usuarioDigitado))
             {
-                MessageBox.Show("Campo 'Usuário' é preenchimento obrigatório", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Campo 'Usuário' é de preenchimento obrigatório", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtUsuario.Focus();
                 return;
             }
