@@ -33,6 +33,12 @@ namespace EMISSAO_NOTAS
             MessageBox.Show(mensagem, "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        private void Limpar()
+        {
+            txtNovoUsuario.Clear();
+            txtSenhaNovoUsuario.Clear();
+        }
+
         private void CarregarProximoIdDoBanco()
         {
             Conexao = new MySqlConnection(data_source);
@@ -68,6 +74,40 @@ namespace EMISSAO_NOTAS
         {
             txtIdUsuarioCadastrado.Text = IdUsuario.ToString();
             txtIdUsuarioCadastrado.Enabled = false;
+        }
+
+        private void btnCadastrarNovoUsuario_Click(object sender, EventArgs e)
+        {
+            Conexao = new MySqlConnection(data_source);
+            Conexao.Open();
+            MySqlCommand prodcmd = new MySqlCommand();
+            prodcmd.Connection = Conexao;
+
+
+            if (string.IsNullOrEmpty(txtNovoUsuario.Text) || string.IsNullOrEmpty(txtSenhaNovoUsuario.Text))
+            {
+                Erro("Não pode conter campos vazios!");
+                return;
+            }
+            else
+            {
+                prodcmd.Parameters.Clear(); // limpa os parâmetros antigos
+                prodcmd.CommandText =
+                    "INSERT INTO login " +
+                    "(user, senha) " +
+                    "VALUES " +
+                    "(@user, @senha)";
+
+                prodcmd.Parameters.AddWithValue("@user", txtNovoUsuario.Text);
+                prodcmd.Parameters.AddWithValue("@senha", txtSenhaNovoUsuario.Text);
+
+                prodcmd.ExecuteNonQuery();
+                Sucesso("Usuário Cadastrado com sucesso!");
+                IdUsuario++; // Incrementa o próximo ID
+                txtIdUsuarioCadastrado.Text = IdUsuario.ToString(); // Atualiza o campo de ID
+                Limpar();
+
+            }
         }
     }
 }

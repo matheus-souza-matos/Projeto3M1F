@@ -45,6 +45,7 @@
             this.btnCadastrarNovoUsuario.TabIndex = 0;
             this.btnCadastrarNovoUsuario.Text = "Cadastrar";
             this.btnCadastrarNovoUsuario.UseVisualStyleBackColor = true;
+            this.btnCadastrarNovoUsuario.Click += new System.EventHandler(this.btnCadastrarNovoUsuario_Click);
             // 
             // txtSenhaNovoUsuario
             // 
