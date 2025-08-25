@@ -82,8 +82,8 @@ namespace EMISSAO_NOTAS
                 txtSenha.Focus();
                 return;
             }
-            Conexao = new MySqlConnection(data_source);
 
+            Conexao = new MySqlConnection(data_source);
             try
             {
                 Conexao.Open();
