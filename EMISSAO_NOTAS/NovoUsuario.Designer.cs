@@ -35,6 +35,7 @@
             this.lblSenhaNovoUsuario = new System.Windows.Forms.Label();
             this.txtIdUsuarioCadastrado = new System.Windows.Forms.TextBox();
             this.lblIdUsuario = new System.Windows.Forms.Label();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCadastrarNovoUsuario
@@ -95,11 +96,22 @@
             this.lblIdUsuario.TabIndex = 6;
             this.lblIdUsuario.Text = "ID:";
             // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Location = new System.Drawing.Point(76, 200);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnVoltar.TabIndex = 7;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
+            // 
             // NovoUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(340, 302);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.lblIdUsuario);
             this.Controls.Add(this.txtIdUsuarioCadastrado);
             this.Controls.Add(this.lblSenhaNovoUsuario);
@@ -124,5 +136,6 @@
         private System.Windows.Forms.Label lblSenhaNovoUsuario;
         private System.Windows.Forms.TextBox txtIdUsuarioCadastrado;
         private System.Windows.Forms.Label lblIdUsuario;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }

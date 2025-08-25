@@ -91,7 +91,7 @@ namespace EMISSAO_NOTAS
             }
             else
             {
-                prodcmd.Parameters.Clear(); // limpa os parâmetros antigos
+                prodcmd.Parameters.Clear();
                 prodcmd.CommandText =
                     "INSERT INTO login " +
                     "(user, senha) " +
@@ -103,10 +103,40 @@ namespace EMISSAO_NOTAS
 
                 prodcmd.ExecuteNonQuery();
                 Sucesso("Usuário Cadastrado com sucesso!");
-                IdUsuario++; // Incrementa o próximo ID
-                txtIdUsuarioCadastrado.Text = IdUsuario.ToString(); // Atualiza o campo de ID
+                IdUsuario++; 
+                txtIdUsuarioCadastrado.Text = IdUsuario.ToString(); 
                 Limpar();
 
+            }
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Conexao = new MySqlConnection(data_source);
+            try
+            {
+                Conexao.Open();
+                string contarUsuario = "SELECT COUNT(*) FROM login";
+                MySqlCommand verificarCmd = new MySqlCommand(contarUsuario, Conexao);
+                int verificarQuantUsu = Convert.ToInt32(verificarCmd.ExecuteScalar());
+
+                if (verificarQuantUsu == 1)
+                {
+                    MessageBox.Show("É necessário realizar o cadastro de um usuário para poder retornar a tela de login.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+                else
+                {
+                    this.Close();
+                }
+            }
+            catch (MySqlException ex)
+            {
+                Erro($"Erro ao vericar se há existência de usuários: {ex.Message}");
+            }
+            finally
+            {
+                Conexao.Close();
             }
         }
     }

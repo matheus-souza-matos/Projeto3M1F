@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\Modelo nota\\NOTAS_3M1F\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2078DF28-18A9-4FA2-9708-8B0F3BC7A139}|EMISSAO_NOTAS\\EMISSAO_NOTAS.csproj|c:\\users\\secretaria\\desktop\\nova pasta\\modelo nota\\notas_3m1f\\emissao_notas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2078DF28-18A9-4FA2-9708-8B0F3BC7A139}|EMISSAO_NOTAS\\EMISSAO_NOTAS.csproj|solutionrelative:emissao_notas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2078DF28-18A9-4FA2-9708-8B0F3BC7A139}|EMISSAO_NOTAS\\EMISSAO_NOTAS.csproj|c:\\users\\secretaria\\desktop\\nova pasta\\modelo nota\\notas_3m1f\\emissao_notas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2078DF28-18A9-4FA2-9708-8B0F3BC7A139}|EMISSAO_NOTAS\\EMISSAO_NOTAS.csproj|solutionrelative:emissao_notas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2078DF28-18A9-4FA2-9708-8B0F3BC7A139}|EMISSAO_NOTAS\\EMISSAO_NOTAS.csproj|c:\\users\\secretaria\\desktop\\nova pasta\\modelo nota\\notas_3m1f\\emissao_notas\\novousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2078DF28-18A9-4FA2-9708-8B0F3BC7A139}|EMISSAO_NOTAS\\EMISSAO_NOTAS.csproj|C:\\Users\\secretaria\\Desktop\\Nova pasta\\Modelo nota\\NOTAS_3M1F\\emissao_notas\\novousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2078DF28-18A9-4FA2-9708-8B0F3BC7A139}|EMISSAO_NOTAS\\EMISSAO_NOTAS.csproj|solutionrelative:emissao_notas\\novousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2078DF28-18A9-4FA2-9708-8B0F3BC7A139}|EMISSAO_NOTAS\\EMISSAO_NOTAS.csproj|C:\\Users\\secretaria\\Desktop\\Nova pasta\\Modelo nota\\NOTAS_3M1F\\emissao_notas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2078DF28-18A9-4FA2-9708-8B0F3BC7A139}|EMISSAO_NOTAS\\EMISSAO_NOTAS.csproj|solutionrelative:emissao_notas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2078DF28-18A9-4FA2-9708-8B0F3BC7A139}|EMISSAO_NOTAS\\EMISSAO_NOTAS.csproj|C:\\Users\\secretaria\\Desktop\\Nova pasta\\Modelo nota\\NOTAS_3M1F\\emissao_notas\\novousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2078DF28-18A9-4FA2-9708-8B0F3BC7A139}|EMISSAO_NOTAS\\EMISSAO_NOTAS.csproj|solutionrelative:emissao_notas\\novousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2078DF28-18A9-4FA2-9708-8B0F3BC7A139}|EMISSAO_NOTAS\\EMISSAO_NOTAS.csproj|c:\\users\\secretaria\\desktop\\nova pasta\\modelo nota\\notas_3m1f\\emissao_notas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2078DF28-18A9-4FA2-9708-8B0F3BC7A139}|EMISSAO_NOTAS\\EMISSAO_NOTAS.csproj|solutionrelative:emissao_notas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,21 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\Modelo nota\\NOTAS_3M1F\\EMISSAO_NOTAS\\Login.cs",
-              "RelativeDocumentMoniker": "EMISSAO_NOTAS\\Login.cs",
-              "ToolTip": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\Modelo nota\\NOTAS_3M1F\\EMISSAO_NOTAS\\Login.cs",
-              "RelativeToolTip": "EMISSAO_NOTAS\\Login.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAwwHgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T19:00:45.848Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -55,7 +42,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NovoUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\Modelo nota\\NOTAS_3M1F\\EMISSAO_NOTAS\\NovoUsuario.cs",
+              "RelativeDocumentMoniker": "EMISSAO_NOTAS\\NovoUsuario.cs",
+              "ToolTip": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\Modelo nota\\NOTAS_3M1F\\EMISSAO_NOTAS\\NovoUsuario.cs",
+              "RelativeToolTip": "EMISSAO_NOTAS\\NovoUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T13:10:32.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\Modelo nota\\NOTAS_3M1F\\EMISSAO_NOTAS\\Login.cs",
+              "RelativeDocumentMoniker": "EMISSAO_NOTAS\\Login.cs",
+              "ToolTip": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\Modelo nota\\NOTAS_3M1F\\EMISSAO_NOTAS\\Login.cs",
+              "RelativeToolTip": "EMISSAO_NOTAS\\Login.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwHgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T19:00:45.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "NovoUsuario.cs [Design]",
               "DocumentMoniker": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\Modelo nota\\NOTAS_3M1F\\EMISSAO_NOTAS\\NovoUsuario.cs",
               "RelativeDocumentMoniker": "EMISSAO_NOTAS\\NovoUsuario.cs",
@@ -64,19 +77,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T13:10:29.753Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NovoUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\Modelo nota\\NOTAS_3M1F\\EMISSAO_NOTAS\\NovoUsuario.cs",
-              "RelativeDocumentMoniker": "EMISSAO_NOTAS\\NovoUsuario.cs",
-              "ToolTip": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\Modelo nota\\NOTAS_3M1F\\EMISSAO_NOTAS\\NovoUsuario.cs",
-              "RelativeToolTip": "EMISSAO_NOTAS\\NovoUsuario.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAuwGsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T13:10:32.371Z",
-              "EditorCaption": ""
             }
           ]
         }
